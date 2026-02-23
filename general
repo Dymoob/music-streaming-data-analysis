@@ -1,0 +1,11 @@
+music-streaming-data-analysis/
+│
+├── README.md
+├── data/
+│   └── streaming_data.csv
+├── notebooks/
+│   └── analysis.ipynb
+├── dashboard/
+│   └── powerbi_dashboard.pbix
+└── images/
+    └── dashboard_preview.png
