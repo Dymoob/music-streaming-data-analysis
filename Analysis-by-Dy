@@ -1,0 +1,8 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+data = pd.read_csv("streaming_data.csv")
+
+plt.plot(data["month"], data["streams"])
+plt.title("Streaming Growth")
+plt.show()
